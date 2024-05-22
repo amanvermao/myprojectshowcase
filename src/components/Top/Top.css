@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+.top-contaner{
+	padding-left: 90px;
+	padding-top: 30px;
+}
+a{
+    text-decoration: none;
+}
+.top-text{
+    background-color: #6237A0;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 150px;
+    width: 70%;
+	padding-left: 10px;
+    border-radius: 20px 20px 0px 0px;
+
+}
+.top-main{
+    background-color: #6237A0;
+	width: 95%; 
+    padding: 30px;
+    border-radius: 0px 20px 20px 20px;
+	
+
+}
+.top-imgs{
+	max-width: 100%;
+	height: auto;
+	vertical-align: middle;
+	display: inline-block;
+	object-fit: fill;
+	height: 100%;
+	width: 100%;
+	border-radius: 20px;
+}
+
+.box1{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	padding-top: 30px;
+	border-radius: 30px;
+
+}
+.r-box {
+    width: 43%;
+    height: 500px;
+    border-radius: 30px;
+    border: 7px solid black;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.r-box:hover .box-detail {
+    visibility: visible;
+    animation: slideUp 0.5s forwards;
+}
+.r-box:hover .dark-layer {
+    visibility: visible;
+	opacity: 0.6;
+	transition: 0.3s ease;
+ 
+}
+.l-box:hover .box-detail {
+    visibility: visible;
+    animation: slideUp 0.5s forwards;
+}
+.l-box:hover .dark-layer {
+    visibility: visible;
+	opacity: 0.6;
+	transition: 0.3s ease;
+ 
+}
+.c-box:hover .box-detail {
+    visibility: visible;
+    animation: slideUp 0.5s forwards;
+}
+.c-box:hover .dark-layer {
+    visibility: visible;
+	opacity: 0.6;
+	transition: 0.3s ease;
+ 
+}
+
+
+.box-detail {
+    position: absolute;
+    z-index: 11;
+    width: 450px;
+    height: 100px;
+    border-radius: 20px;
+    background-color: #DEACF5;
+    cursor: pointer;
+    visibility: hidden;
+    bottom: 30px;
+    transform: translateY(100%);
+    transition: transform 0.5s ease-in-out;
+	display: flex;
+	font-family: "Titillium Web", sans-serif;
+ color: black;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+
+@keyframes slideUp {
+    0% {
+        transform: translateY(50%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+.dark-layer{
+	position: absolute;
+    z-index: 9;
+    width: 100%;
+    height: 490px;
+    border-radius: 20px;
+	visibility: hidden;
+    cursor: pointer;
+    transition: 0.3s ease;
+	background-color: black;
+	opacity: 0.2;
+
+}
+.box-detail-r{
+ width: 310px;
+ height: 100px;
+ border-radius: 20px 0px 0px 20px;
+ padding: 10px;
+ 
+}
+
+.box-detail-l{
+width: 140px;
+height: 100px;
+border-radius: 0px 20px 20px 0px;
+display: flex;
+justify-content: end;
+align-items: center;
+
+}
+.arrow-wrapper{
+	height:83px;
+	width: 83px;
+	border-radius: 50%;
+	border: 2px solid black;
+	margin-right: 10px;	
+	display: flex;
+	justify-content: center;
+	align-items: center; 
+    
+}
+.arrow-wrapper:hover{
+	height:86px;
+	width: 86px;
+    transition: 0.3s ease;	
+}
+.arrow-wrapper:hover .arrow{
+	transform: rotate(0);
+    transition: 0.3s ease;
+}
+.arrow {
+font-size: 40px;
+transform: rotate(-40deg);
+color: #9754CB;
+
+}
+
+.l-box{
+	width: 43%;
+	height: 500px;
+	border-radius: 30px;
+	border: 7px solid black;
+	position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.box-2{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	padding-top: 30px;
+
+
+}
+.c-box{
+	height:500px;
+	width: 91%;
+	border-radius: 30px;
+	border: 7px solid black;
+	position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+
+}
+

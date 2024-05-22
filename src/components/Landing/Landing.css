@@ -1,0 +1,115 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+.contaner{
+    
+}
+
+.text-1 span{
+    font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 190px;
+  letter-spacing: 3px;
+  padding: 20px;
+
+}
+.text-2{
+    background-color: #6237A0;
+    text-align: right;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 180px;
+    letter-spacing: 3px;
+    padding-right: 100px;
+    
+}
+.text-3{ 
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 200px;
+    letter-spacing: 3px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+
+.strock-text{
+    -webkit-text-fill-color:transparent; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 5px;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+
+}
+
+
+
+@media (max-width: 1218px) {
+    .text-1 span {
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 144px;
+        letter-spacing: 3px;
+        padding: 20px;
+      }
+ 
+      .text-3 {
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 147px;
+        letter-spacing: 3px;
+        padding: 20px;
+        display: flex;
+        justify-content: space-evenly;
+      }  
+      .top-text {
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 99px;
+      }
+
+      .top-text2 {
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 112px;
+        text-align: end;
+      }
+}
+
+
+@media (max-width: 900px) {
+    .text-1 span {
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 78px;
+        letter-spacing: 3px;
+        padding: 20px;
+      }
+      .text-2 {
+        background-color: #6237A0;
+        text-align: right;
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 120px;
+        letter-spacing: 3px;
+        padding-right: 100px;
+      }
+      .text-3 {
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 121px;
+        letter-spacing: 3px;
+        padding: 20px;
+        display: flex;
+        justify-content: space-evenly;
+      }
+}
