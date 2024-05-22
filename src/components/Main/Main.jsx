@@ -1,5 +1,13 @@
 import React from 'react'
 import './Main.css'
+import addtocart from '../../assets/Main/addtocart1.webp'
+import crypto from '../../assets/Main/cripto3.webp'
+import todo from '../../assets/Main/todo.webp'
+import passgen from '../../assets/Main/Screenshot 2024-05-22 003306.webp'
+import quizzvid from "../../assets/Main/quizz.mp4"
+import gym from "../../assets/Main/gym.webp"
+import animeweb from '../../assets/Main/anime.webp'
+
 
 const Main = () => {
   return (
@@ -16,7 +24,7 @@ const Main = () => {
           
         <div className="grid-wrapper">
 	<div className='box-1 big'>
-		<img src="src/assets/Main/addtocart1.png" alt="" />
+		<img src={addtocart} alt="" />
 		<div className="dark-layer1">
           </div>
           <div className="box-detail">
@@ -33,7 +41,7 @@ const Main = () => {
           </div>
 	</div>
 	<div className='big box-1'>
-		<img src="src/assets/Main/gym.png" alt="" />
+		<img src={gym} alt="" />
 		<div className="dark-layer1">
           </div>
           <div className="box-detail">
@@ -53,7 +61,7 @@ const Main = () => {
 	</div>
 	<div className="box-3 tall tall2">
 		
-        <img src="src/assets/Main/cripto3.png" alt="" />
+        <img src={crypto} alt="" />
 		<div className="dark-layer2">
           </div>
           <div className="box-detail" style={{width:"200px", height:"300px", flexDirection:"column"}}>
@@ -81,13 +89,13 @@ const Main = () => {
 	
 	<div className=" box_2 wide">
     <video id="myVideo" autoPlay loop>
-                <source src="src/assets/Main/quizz.mp4" type="video/mp4" />
+                <source src={quizzvid} type="video/mp4" />
             </video>
         
   
 	</div>
 	<div className="big box-1">
-		<img src="src/assets/Main/todo.png" alt="" />
+		<img src={todo} alt="" />
 		<div className="dark-layer1">
           </div>
           <div className="box-detail">
@@ -108,7 +116,7 @@ const Main = () => {
 	
 	
 	<div className="big box-1">
-    <img src="src/assets/Main/anime.png" alt="" />
+    <img src={animeweb} alt="" />
 	<div className="dark-layer1">
           </div>
           <div className="box-detail">
@@ -128,7 +136,7 @@ const Main = () => {
 		
 	</div>
 	<div className="box-4 tall">
-    <img src="src/assets/Main/Screenshot 2024-05-22 003306.png" alt="" />
+    <img src={passgen} alt="" />
 
 	<div className="dark-layer3">
           </div>

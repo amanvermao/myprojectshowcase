@@ -1,5 +1,8 @@
 import React from 'react'
 import './Top.css'
+import img1 from '../../assets/Top/img1.webp'
+import img2 from '../../assets/Top/img2.webp'
+import img3 from '../../assets/Top/img3.webp'
 
 const Top = () => {
   return (
@@ -11,7 +14,7 @@ const Top = () => {
         <div className="top-main">
           <div className="box1">
             <div className="r-box">
-              <img className='top-imgs' src="src/assets/Top/img1.png" alt="" />
+              <img className='top-imgs' src={img1} alt="" />
               <div className="dark-layer">
               </div>
              
@@ -32,7 +35,7 @@ const Top = () => {
 
             </div>
             <div className="l-box">
-              <img className='top-imgs' src="src/assets/Top/img2.png" alt="" />
+              <img className='top-imgs' src={img2} alt="" />
 
               <div className="dark-layer">
               </div>
@@ -57,7 +60,7 @@ const Top = () => {
 
           <div className="box-2">
             <div className="c-box">
-              <img className='top-imgs' src="src/assets/Top/img3.png" alt="" />
+              <img className='top-imgs' src={img3} alt="" />
               <div className="dark-layer">
               </div>
             
